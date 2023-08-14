@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Despachante Imediato</title>
+
+    <link rel="icon" href="images/uploaded/8/pedro3_1.png" type="image/x-icon">
+    <base href="" target="_blank">
+    <meta name="keywords" content="Facilitamos, Seus Processos, Suas Transferências. Atpv, Crv, Doc de rodar, Cancelamento de venda etc.">
+    <meta name="description" content="Facilitamos, Seus Processos, Suas Transferências. Atpv, Crv, Doc de rodar, Cancelamento de venda etc.">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.weber.css">
+    <link rel="stylesheet" href="css/fx.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/despachante_imediato.css">
+
+    <a href="https://api.whatsapp.com/send?phone=5541988649375&text=Olá!%20Estava%20no%20site%20e%20tenho%20uma%20dúvida." class="bt-whatsApp" target="_blank" style="right:25px; position:fixed;width:60px;height:60px;bottom:40px;z-index:100;">
+		<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMjYxOSA1MDYgMTIwIDEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzI3ZDA0NTsKICAgICAgfQoKICAgICAgLmNscy0yLCAuY2xzLTUgewogICAgICAgIGZpbGw6IG5vbmU7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgc3Ryb2tlOiAjZmZmOwogICAgICAgIHN0cm9rZS13aWR0aDogNXB4OwogICAgICB9CgogICAgICAuY2xzLTMgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgIH0KCiAgICAgIC5jbHMtNCB7CiAgICAgICAgc3Ryb2tlOiBub25lOwogICAgICB9CiAgICA8L3N0eWxlPjwvZGVmcz48ZyBkYXRhLW5hbWU9Ikdyb3VwIDM2IiBpZD0iR3JvdXBfMzYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzMDAgNzMpIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjYwIiBjeT0iNjAiIGRhdGEtbmFtZT0iRWxsaXBzZSAxOCIgaWQ9IkVsbGlwc2VfMTgiIHI9IjYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTkgNDMzKSIvPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzUiIGlkPSJHcm91cF8zNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0IDM4NikiPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzQiIGlkPSJHcm91cF8zNCI+PGcgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgMTkiIGlkPSJFbGxpcHNlXzE5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NCA3NSkiPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuNSIgY3k9IjMxLjUiIHI9IjMxLjUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNSIgY3g9IjMxLjUiIGN5PSIzMS41IiByPSIyOSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDI0LDE5MWwtNC42LDE2LjMsMTYuOS00LjcuOS01LjItMTEsMy41LDIuOS0xMC41WiIgZGF0YS1uYW1lPSJQYXRoIDEyNiIgaWQ9IlBhdGhfMTI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMyNSAtNjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI2Niw5MGMwLS4xLDMuNS0xMS43LDMuNS0xMS43bDguNCw3LjlaIiBkYXRhLW5hbWU9IlBhdGggMTI3IiBpZD0iUGF0aF8xMjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTY1IDQzKSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDM5LjMsMTYwLjZhOS40LDkuNCwwLDAsMC0zLjksNi4xYy0uNSwzLjksMS45LDcuOSwxLjksNy45YTUwLjg3Niw1MC44NzYsMCwwLDAsOC42LDkuOCwzMC4xODEsMzAuMTgxLDAsMCwwLDkuNiw1LjEsMTEuMzc4LDExLjM3OCwwLDAsMCw2LjQuNiw5LjE2Nyw5LjE2NywwLDAsMCw0LjgtMy4yLDkuODUxLDkuODUxLDAsMCwwLC42LTIuMiw1Ljg2OCw1Ljg2OCwwLDAsMCwwLTJjLS4xLS43LTcuMy00LTgtMy44cy0xLjMsMS41LTIuMSwyLjYtMS4xLDEuNi0xLjksMS42LTQuMy0xLjQtNy42LTQuNGExNS44NzUsMTUuODc1LDAsMCwxLTQuMy02cy42LS43LDEuNC0xLjhhNS42NjQsNS42NjQsMCwwLDAsMS4zLTIuNGMwLS41LTIuOC03LjYtMy41LTcuOUExMS44NTIsMTEuODUyLDAsMCwwLDE0MzkuMywxNjAuNloiIGRhdGEtbmFtZT0iUGF0aCAxMjgiIGlkPSJQYXRoXzEyOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMjYuMzMyIC02OC40NjcpIi8+PC9nPjwvZz48L3N2Zz4=" alt="" width="60px">
+	    </a>
+    <span id="alertWapp" style="right:30px; visibility: hidden; position:fixed; width:17px; height:17px;bottom:90px; background:red;z-index:101; font-size:11px;color:#fff;text-align:center;border-radius: 50px; font-weight:bold;line-height: normal; "> 1 </span>
+    <div id="msg1" style="right: 90px; visibility: visible; background: #fff; color: #000; position: fixed; width: 200px; bottom: 52px; text-align: center; font-size: 13px; line-height: 31px; height: 32px; border-radius: 100px; z-index: 100;border: 1px solid #ccc;">Fale Conosco!</div>
+
+    <script type="text/javascript" src="path_to_your_javascript.js"></script>
+</head>
+<body class="light-page">
+	<div id="wrap">
+		<nav id="nav-logo-menu-social" class="navbar navbar-expand-lg dark [object Object] show-on-scroll show">
+    		<div class="container">
+        		<div class="row align-items-center">
+            		<div class="col-auto">
+                		<a class="navbar-brand" href="#">
+                    		<img src="images/uploaded/8/pedro3_2.png" height="30px" class="mw-100" alt="" srcset="">
+                		</a>
+            			</div>
+            			<div class="col-auto ml-auto hidden-lg">
+                			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target=".main-menu-collapse" aria-controls="navbarMenuContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            			</div>
+            			<div class="col-lg-auto navbar-collapse main-menu-collapse mr-auto collapse" style="">
+                			<ul class="navbar-nav" style="z-index: 10;">
+                    			<li class="nav-item active">
+                        			<a class="nav-link smooth" href="#desc-halfbg-text-4" style="overflow: visible;" target="_self">Quem Somos</a>
+                    			</li>
+                    			<li class="nav-item">
+                        			<a class="nav-link smooth" href="#benefits-3col-6" style="overflow: visible;" target="_self">Serviços</a>
+                    			</li>
+                    			<li class="nav-item">
+                        			<a class="nav-link smooth" href="#benefits-3col-6" style="overflow: visible;" target="_self">Porque Imediato</a>
+                    			</li>
+                    			<li class="nav-item">
+                        			<a class="nav-link smooth" href="#action-text-btn-2" style="overflow: visible;" target="_self">Detrans</a>
+                    			</li><li class="nav-item">
+                        			<a class="nav-link smooth" href="#action-text-btn" style="overflow: visible;" target="_self">Contato</a>
+                    			</li>
+                			</ul>
+            			</div>
+            			<div class="col-auto navbar-collapse main-menu-collapse collapse" style="">
+                			<div class="d-inline-block inline-group">
+                    		<a href="https://www.instagram.com/imediatodespachante/" class="smooth" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="16" viewBox="0 0 16 16" width="16" class="icon svg-default"><radialGradient id="a" cx="1.163903%" cy="98.836097%" r="139.775349%"><stop offset="0" stop-color="#ffc800"></stop><stop offset=".486454468" stop-color="#ff2a7b"></stop><stop offset="1" stop-color="#a000bc"></stop></radialGradient><path d="m8.00001588 0c2.17265372 0 2.44508882.00920925 3.29837392.04814217.8515067.03883765 1.4330552.17408667 1.9419142.37186335.5260707.20441369.9722115.47796031 1.4169867.92270379.4447435.44477523.7182901.89091598.9227355 1.41698671.197745.50885894.332994 1.09040748.3718316 1.94191421.0389329.85328506.0481422 1.12572022.0481422 3.29840565 0 2.17265372-.0092093 2.44508882-.0481422 3.29837392-.0388376.8515067-.1740866 1.4330552-.3718316 1.9419142-.2044454.5260707-.477992.9722115-.9227355 1.4169867-.4447752.4447435-.890916.7182901-1.4169867.9227355-.508859.197745-1.0904075.332994-1.9419142.3718316-.8532851.0389329-1.1257202.0481422-3.29837392.0481422-2.17268543 0-2.44512059-.0092093-3.29840565-.0481422-.85150673-.0388376-1.43305527-.1740866-1.94191421-.3718316-.52607073-.2044454-.97221148-.477992-1.41698671-.9227355-.44474348-.4447752-.7182901-.890916-.92270379-1.4169867-.19777668-.508859-.3330257-1.0904075-.37186335-1.9419142-.03893292-.8532851-.04814217-1.1257202-.04814217-3.29837392 0-2.17268543.00920925-2.44512059.04814217-3.29840565.03883765-.85150673.17408667-1.43305527.37186335-1.94191421.20441369-.52607073.47796031-.97221148.92270379-1.41698671.44477523-.44474348.89091598-.7182901 1.41698671-.92270379.50885894-.19777668 1.09040748-.3330257 1.94191421-.37186335.85328506-.03893292 1.12572022-.04814217 3.29840565-.04814217zm0 1.44143887c-2.13610246 0-2.38913467.0081613-3.23270238.04664963-.7799921.03556678-1.20358605.16589361-1.48548451.27545198-.37341939.14512515-.63991616.31848143-.91984575.59844276-.27996133.27992959-.45331761.54642636-.59844276.91984575-.10955837.28189846-.2398852.70549241-.27545198 1.48548451-.03848833.84356771-.04664963 1.09659992-.04664963 3.23270238 0 2.13607072.0081613 2.38910292.04664963 3.23267062.03556678.7799921.16589361 1.2035861.27545198 1.4854845.14512515.3734194.31851318.6399162.59844276.9198458.27992959.2799613.54642636.4533176.91984575.5984427.28189846.1095584.70549241.2398852 1.48548451.275452.84347244.0384883 1.09644114.0466496 3.23270238.0466496 2.13622952 0 2.38922992-.0081613 3.23267062-.0466496.7799921-.0355668 1.2035861-.1658936 1.4854845-.275452.3734194-.1451251.6399162-.3184814.9198458-.5984427.2799613-.2799296.4533176-.5464264.5984427-.9198458.1095584-.2818984.2398852-.7054924.275452-1.4854845.0384883-.8435677.0466496-1.0965999.0466496-3.23267062 0-2.13610246-.0081613-2.38913467-.0466496-3.23270238-.0355668-.7799921-.1658936-1.20358605-.275452-1.48548451-.1451251-.37341939-.3184814-.63991616-.5984427-.91984575-.2799296-.27996133-.5464264-.45331761-.9198458-.59844276-.2818984-.10955837-.7054924-.2398852-1.4854845-.27545198-.8435677-.03848833-1.0965999-.04664963-3.23267062-.04664963zm0 2.4504556c2.26884272 0 4.10808962 1.8392469 4.10808962 4.10812141 0 2.26884272-1.8392469 4.10808962-4.10808962 4.10808962-2.26887451 0-4.10812141-1.8392469-4.10812141-4.10808962 0-2.26887451 1.8392469-4.10812141 4.10812141-4.10812141zm0 6.77477223c1.47275033 0 2.66665082-1.19390049 2.66665082-2.66665082 0-1.47278209-1.19390049-2.66668255-2.66665082-2.66668255-1.47278209 0-2.66668255 1.19390046-2.66668255 2.66668255 0 1.47275033 1.19390046 2.66665082 2.66668255 2.66665082zm5.23041202-6.9370774c0 .53019901-.4298182.95998539-.9600172.95998539-.5301673 0-.9599854-.42978638-.9599854-.95998539 0-.53019902.4298181-.96001715.9599854-.96001715.530199 0 .9600172.42981813.9600172.96001715z" fill="url(#a)" fill-rule="evenodd"></path></svg></a>
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</nav><nav id="nav-logo-menu-social--0" class="navbar navbar-expand-lg dark [object Object]">
+    			<div class="container">
+        			<div class="row align-items-center">
+            			<div class="col-auto">
+                			<a class="navbar-brand" href="#">
+                    			<img src="images/uploaded/8/pedro3_2.png" height="30px" class="mw-100" alt="" srcset="">
+                			</a>
+            			</div>
+            			<div class="col-auto ml-auto hidden-lg">
+                			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target=".main-menu-collapse" aria-controls="navbarMenuContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            			</div>
+            			<div class="col-lg-auto navbar-collapse main-menu-collapse mr-auto collapse" style="">
+                			<ul class="navbar-nav" style="z-index: 10;">
+                    			<li class="nav-item active">
+                        			<a class="nav-link smooth" href="#desc-halfbg-text-4" style="overflow: visible;" target="_self">Quem Somos</a>
+                    			</li>
+                    			<li class="nav-item">
+                        			<a class="nav-link smooth" href="#benefits-3col-6" style="overflow: visible;" target="_self">Serviços</a>
+                    			</li>
+                    			<li class="nav-item">
+                        			<a class="nav-link smooth" href="#benefits-3col-6" style="overflow: visible;" target="_self">Porque Imediato</a>
+                    			</li>
+                    			<li class="nav-item">
+                        			<a class="nav-link smooth" href="#action-text-btn-2" style="overflow: visible;" target="_self">Detrans</a>
+                    			</li><li class="nav-item">
+                        			<a class="nav-link smooth" href="#action-text-btn" style="overflow: visible;" target="_self">Contato</a>
+                    			</li>
+                			</ul>
+            			</div>
+            			<div class="col-auto navbar-collapse main-menu-collapse collapse" style="">
+                			<div class="d-inline-block inline-group">
+                    			<a href="https://www.instagram.com/imediatodespachante/" class="smooth" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="16" viewBox="0 0 16 16" width="16" class="icon svg-default"><radialGradient id="a" cx="1.163903%" cy="98.836097%" r="139.775349%"><stop offset="0" stop-color="#ffc800"></stop><stop offset=".486454468" stop-color="#ff2a7b"></stop><stop offset="1" stop-color="#a000bc"></stop></radialGradient><path d="m8.00001588 0c2.17265372 0 2.44508882.00920925 3.29837392.04814217.8515067.03883765 1.4330552.17408667 1.9419142.37186335.5260707.20441369.9722115.47796031 1.4169867.92270379.4447435.44477523.7182901.89091598.9227355 1.41698671.197745.50885894.332994 1.09040748.3718316 1.94191421.0389329.85328506.0481422 1.12572022.0481422 3.29840565 0 2.17265372-.0092093 2.44508882-.0481422 3.29837392-.0388376.8515067-.1740866 1.4330552-.3718316 1.9419142-.2044454.5260707-.477992.9722115-.9227355 1.4169867-.4447752.4447435-.890916.7182901-1.4169867.9227355-.508859.197745-1.0904075.332994-1.9419142.3718316-.8532851.0389329-1.1257202.0481422-3.29837392.0481422-2.17268543 0-2.44512059-.0092093-3.29840565-.0481422-.85150673-.0388376-1.43305527-.1740866-1.94191421-.3718316-.52607073-.2044454-.97221148-.477992-1.41698671-.9227355-.44474348-.4447752-.7182901-.890916-.92270379-1.4169867-.19777668-.508859-.3330257-1.0904075-.37186335-1.9419142-.03893292-.8532851-.04814217-1.1257202-.04814217-3.29837392 0-2.17268543.00920925-2.44512059.04814217-3.29840565.03883765-.85150673.17408667-1.43305527.37186335-1.94191421.20441369-.52607073.47796031-.97221148.92270379-1.41698671.44477523-.44474348.89091598-.7182901 1.41698671-.92270379.50885894-.19777668 1.09040748-.3330257 1.94191421-.37186335.85328506-.03893292 1.12572022-.04814217 3.29840565-.04814217zm0 1.44143887c-2.13610246 0-2.38913467.0081613-3.23270238.04664963-.7799921.03556678-1.20358605.16589361-1.48548451.27545198-.37341939.14512515-.63991616.31848143-.91984575.59844276-.27996133.27992959-.45331761.54642636-.59844276.91984575-.10955837.28189846-.2398852.70549241-.27545198 1.48548451-.03848833.84356771-.04664963 1.09659992-.04664963 3.23270238 0 2.13607072.0081613 2.38910292.04664963 3.23267062.03556678.7799921.16589361 1.2035861.27545198 1.4854845.14512515.3734194.31851318.6399162.59844276.9198458.27992959.2799613.54642636.4533176.91984575.5984427.28189846.1095584.70549241.2398852 1.48548451.275452.84347244.0384883 1.09644114.0466496 3.23270238.0466496 2.13622952 0 2.38922992-.0081613 3.23267062-.0466496.7799921-.0355668 1.2035861-.1658936 1.4854845-.275452.3734194-.1451251.6399162-.3184814.9198458-.5984427.2799613-.2799296.4533176-.5464264.5984427-.9198458.1095584-.2818984.2398852-.7054924.275452-1.4854845.0384883-.8435677.0466496-1.0965999.0466496-3.23267062 0-2.13610246-.0081613-2.38913467-.0466496-3.23270238-.0355668-.7799921-.1658936-1.20358605-.275452-1.48548451-.1451251-.37341939-.3184814-.63991616-.5984427-.91984575-.2799296-.27996133-.5464264-.45331761-.9198458-.59844276-.2818984-.10955837-.7054924-.2398852-1.4854845-.27545198-.8435677-.03848833-1.0965999-.04664963-3.23267062-.04664963zm0 2.4504556c2.26884272 0 4.10808962 1.8392469 4.10808962 4.10812141 0 2.26884272-1.8392469 4.10808962-4.10808962 4.10808962-2.26887451 0-4.10812141-1.8392469-4.10812141-4.10808962 0-2.26887451 1.8392469-4.10812141 4.10812141-4.10812141zm0 6.77477223c1.47275033 0 2.66665082-1.19390049 2.66665082-2.66665082 0-1.47278209-1.19390049-2.66668255-2.66665082-2.66668255-1.47278209 0-2.66668255 1.19390046-2.66668255 2.66668255 0 1.47275033 1.19390046 2.66665082 2.66668255 2.66665082zm5.23041202-6.9370774c0 .53019901-.4298182.95998539-.9600172.95998539-.5301673 0-.9599854-.42978638-.9599854-.95998539 0-.53019902.4298181-.96001715.9599854-.96001715.530199 0 .9600172.42981813.9600172.96001715z" fill="url(#a)" fill-rule="evenodd"></path></svg></a>
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</nav><header id="header-carousel-2" class="section-carousel carousel-nav-aside-bottom carousel-dots-aside-bottom overall text-center light">
+    			<div class="carousel-single carousel-stretch owl-drag"><div class="item vw-100 d-flex align-items-center pt-75 pb-75 pt-md-150 pb-md-150">
+            			<div class="container">
+                			<div class="row">
+                    			<div class="col-md-8 ml-auto mr-auto">
+                    			<div class="content-box padding-x3 bg-default shadow">
+                            			<div class="position-absolute t-0 l-50 centered">
+                                			<img alt="logo" src="images/uploaded/8/pedro3_1.png" height="120px" class="" srcset="">
+                            			</div>
+                            			<h2 class="mt-50" style="overflow: visible;"><strong class="">IMEDIATO</strong></h2>
+                            			<h3 class="text-secondary mb-50" style="overflow: visible;">Despachante</h3><h4 style="overflow: visible;" class="text-secondary mb-50 mt-lg--50">Descomplique seu veiculo de IMEDIATO</h4>
+                        			</div></div>
+                			</div>
+            			</div>
+        			</div></div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</header><section id="desc-halfbg-text-4" class="pb-50 pb-md-150 pt-md-150 pb-lg-200 pt-lg-200 light">
+    			<div class="container-fluid">
+        			<div class="row">
+            			<div class="bg-box col-md-6 mb-50 mb-md-0 mt-md-75 embed-responsive-16by9" style="background-image: url(&quot;images//uploaded/8/pedro3_5.jpg&quot;); background-position: right top; background-size: cover;">
+            			</div>
+            			<div class="col-md-4 offset-md-7" style="z-index: 10;">
+                			<h3 class="" style="overflow: visible;"><strong class="">Quem Somos</strong></h3>
+                			<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 100 20" width="100" class="mb-30 svg-secondary"><path d="m0 9h100v2h-100z" fill-rule="evenodd"></path></svg>
+                			<p class="mb-50" style="overflow: visible;">IMEDIATO DESPACHANTE<br>Facilitamos, Seus Processos, Suas Transferências.
+								Atpv, Crv, Doc de rodar, Cancelamento de venda etc. Estamos &nbsp;aqui no boqueirão para te ajudar.<br></p>
+                			<div class="inline-group-x2">
+								<a href="https://api.whatsapp.com/send?phone=5541988649375&text=Olá!%20Estava%20no%20site%20e%20tenho%20uma%20dúvida.">
+									<img class="mw-100" alt="logo" src="images/uploaded/8/pedro3_15.png" height="86" width="190">
+								</a>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="sep-bottom-3" class="section-sep sep-bottom light">
+    			<div class="container-fluid">
+        			<div class="row no-gutters">
+            			<div class="col-12">
+                			<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1800 50" class="d-block" width="100%" height="50px"><path d="m0 0 900 50 900-50v50h-1800z" fill="#fff"></path></svg>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="benefits-3col-6" class="pt-50 pb-50 text-center light pt-lg-30 pb-lg-0 pt-sm-20 pb-sm-0">
+    			<div class="container">
+        			<div class="row align-items-center">
+            			<div class="col-lg-12" style="z-index: 10;">
+                			<h3 class="" style="overflow: visible;"><strong class="">Serviços Imediato Despachante:</strong></h3>
+            			</div>
+            			<div class="col-lg-4 col-md-8 order-lg-1 ml-auto mr-auto text-lg-right">
+            			</div>
+            			<div class="col-lg-4 col-md-8 ml-auto mr-auto order-lg-3 text-lg-left">
+            			</div>
+            			<div class="col-lg-4 order-lg-2">
+                			<div class="content-box d-inline-block">
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="text-3col-list" class="pt-50 pb-50 pt-md-100 pb-md-100 light pt-lg-10 pb-lg-10 pt-sm-10">
+    			<div class="container">
+        			<div class="row">
+            			<div class="col-md">
+                			<ul class="padding-list" style="z-index: 10;">
+                    			<li class="" style="overflow: visible;">ALTERAÇÃO DE CARACTERÍSTICAS<br></li>
+                    			<li class="" style="overflow: visible;">BAIXA DEFINITIVA + TERMO DE BAIXA DE SUCATA<br></li>
+                    			<li class="" style="overflow: visible;">DESBLOQUEIO (VEÍCULOS SINISTRADOS)</li>
+                    			<li class="" style="overflow: visible;">RESTRIÇÃO JUDICIAL</li>
+                			</ul>
+            			</div>
+            			<div class="col-md">
+                			<ul class="padding-list" style="z-index: 10;">
+                    			<li class="" style="overflow: visible;">CANCELAMENTO DE COMUNICAÇÃO DE VENDA<br></li>
+                    			<li class="" style="overflow: visible;">COMUNICAÇÃO DE VENDA<br></li>
+                    			<li class="" style="overflow: visible;">DECLARAÇÃO DE RESIDÊNCIA PADRÃO DETRAN</li>
+                    			<li class="" style="overflow: visible;">VISTORIA VEICULAR ELETRÔNICA</li>
+                			</ul>
+            			</div>
+            			<div class="col-md">
+                			<ul class="padding-list" style="z-index: 10;">
+                    			<li class="" style="overflow: visible;">DÍVIDA ATIVA (IPVA, MULTAS)<br></li>
+                    			<li class="" style="overflow: visible;">GRAVAME EXPIRADO A NÍVEL NACIONAL<br></li>
+                    			<li class="" style="overflow: visible;">RESTRIÇÃO ADMINISTRATIVA</li>
+                			</ul>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="benefits-4col-7" class="pb-50 pt-100 light pt-lg-30 pb-lg-0">
+    			<div class="container">
+        			<div class="row">
+            			<div class="col-lg-12">
+            			</div>
+            			<div class="col-lg-3 col-md-6">
+                			<div class="content-box padding-x2 shadow mb-50 bg-default" style="z-index: 10;">
+                    			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-30 icon svg-default" srcset=""><path d="m21 42c5.431 0 10.37-2.089 14.102-5.484l4.484 4.484-3 3 20.414 20.414 7.414-7.414-20.414-20.414-3 3-4.484-4.484c3.394-3.732 5.484-8.671 5.484-14.102 0-11.58-9.421-21-21-21s-21 9.42-21 21 9.421 21 21 21zm40.586 15-4.586 4.586-17.586-17.586 4.586-4.586zm-40.586-55c10.477 0 19 8.523 19 19s-8.523 19-19 19-19-8.523-19-19 8.523-19 19-19z"></path></svg>
+                    			<h4 class="mb-20" style="overflow: visible;"><strong class="">LEVANTAMENTO E PAGAMENTO DE DÉBITOS</strong></h4>
+                			</div>
+            			</div>
+            			<div class="col-lg-3 col-md-6">
+                			<div class="content-box padding-x2 shadow mb-50 bg-default">
+                    			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-30 icon svg-default" srcset=""><path d="m40.781 4h-3.781v-4h-10v4h-3.781l-.75 3h-13.469v57h46v-57h-13.469zm-16 2h4.219v-4h6v4h4.219l1.5 6h-17.438zm18.5 8h5.719v44h-34v-44h5.719zm9.719-5v53h-42v-53h10.969l-.75 3h-8.219v48h38v-48h-8.219l-.75-3z"></path></svg>
+                    			<h4 class="mb-20"><strong class="">PRIMEIRO E DEMAIS EMPLACAMENTOS</strong></h4>
+                			</div>
+            			</div>
+            			<div class="col-lg-3 col-md-6">
+                			<div class="content-box padding-x2 shadow mb-50 bg-default" style="z-index: 10;">
+                    			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-30 icon svg-default" srcset=""><path d="m55 19h-55v36h55zm-2 34h-51v-32h51z"></path><path d="m11 12h51v32h-5v2h7v-36h-55v7h2z"></path><path d="m50 24h-9v10h9zm-2 8h-5v-6h5z"></path><path d="m32 24h2v26h-2z"></path><path d="m5 26h24v2h-24z"></path><path d="m5 31h21v2h-21z"></path><path d="m5 36h22v2h-22z"></path></svg>
+                    			<h4 class="mb-20" style="overflow: visible;"><strong class="">SEGUNDA VIA DE CRV E LICENCIAMENTO</strong></h4>
+                			</div>
+            			</div>
+            			<div class="col-lg-3 col-md-6">
+                			<div class="content-box padding-x2 shadow mb-50 bg-default" style="z-index: 10;">
+                    			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-30 icon svg-default" srcset=""><path d="m24.293 26.707 1.414-1.414-10.293-10.293h-15.414v2h14.586z"></path><path d="m55.293 9.707 5.293 5.293h-14l-32 32h-14.586v2h15.414l32-32h13.172l-5.293 5.293 1.561 1.414 7.146-7v-1.414l-7.146-7z"></path><path d="m55.293 41.707 5.293 5.293h-13.172l-9.707-9.707-1.414 1.414 10.293 10.293h14l-5.293 5.293 1.561 1.414 7.146-7v-1.414l-7.146-7z"></path></svg>
+                    			<h4 class="mb-20" style="overflow: visible;"><strong class="">TRANSFERÊNCIA DE PROPRIEDADES</strong></h4>
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="desc-text" class="pt-75 pb-75 pt-lg-150 dark pb-lg-100">
+    			<div class="container">
+        			<div class="row">
+            			<div class="col-lg-6 ml-auto" style="z-index: 10;">
+                			<h3 class="" style="overflow: visible;"><strong class="">Porque escolher a gente?</strong></h3>
+                			<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 40 20" width="40" class="mb-30 svg-primary"><path d="m0 8h40v4h-40z" fill-rule="evenodd"></path></svg>
+                			<p class="mb-50" style="overflow: visible;">Aqui na Imediato, você encontra uma equipe completa de especialistas preparados para solucionar todas as suas necessidades. Você pode escolher como deseja ser atendido, seja:<br>Em nosso escritório;
+																		Em uma das nossas 15 concessionárias parceiras;
+																		Ou através nosso atendimento móvel.
+																		A Imediato despachante, proporciona um atendimento rápido e eficiente, para você focar no que realmente importa e deixar a burocracia com a gente.<br></p>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="action-text-btn-2" class="pt-50 pb-50 pt-lg-75 pb-lg-75 light">
+    			<div class="container">
+        			<div class="row align-items-center">
+            			<div class="col-md-auto mr-auto mb-50 mb-md-0" style="z-index: 10;">
+                			<h3 class="" style="overflow: visible;"><strong class="">Links DETRAN</strong></h3>
+            			</div>
+            			<div class="col-md-auto">
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="sep-bottom-6" class="section-sep sep-bottom light">
+    			<div class="container-fluid">
+        			<div class="row no-gutters">
+            			<div class="col-12">
+                			<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1800 50" class="d-block" width="100%" height="50px"><path d="m0 20c40 0 60 30 100 30s60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30 60 30 100 30 60-30 100-30v30h-1800z" fill="#fff"></path></svg>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="benefits-6col-2" class="text-center light pt-30">
+    			<div class="container">
+        			<div class="row">
+            			<div class="col-lg-12">
+            			</div>
+            			<div class="col-lg-2 col-md-4">
+                			<div class="content-box mb-50">
+                    			<img src="images//uploaded/8/Bandeira_do_Acre.svg.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><b class=""><a href="https://www.detran.ac.gov.br" target="_blank">Acre</a></b></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50">
+                    			<img src="images/uploaded/8/pedro3_21.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><b class=""><a href="https://www.detran.df.gov.br" target="_blank">Distrito Federal</a></b></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50">
+                    			<img src="images/uploaded/8/pedro3_27.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><b class=""><a href="https://www.detran.mg.gov.br" target="_blank">Minas Gerais</a></b></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50">
+                    			<img src="images/uploaded/8/pedro3_33.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><b class=""><a href="https://www.detran.rj.gov.br" target="_blank">Rio de Janeiro</a></b></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50">
+                    			<img src="images/uploaded/8/pedro3_39.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><b class=""><a href="https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/home" target="_blank">São Paulo</a></b></p>
+                			</div>
+            			</div>
+            			<div class="col-lg-2 col-md-4">
+                			<div class="content-box mb-50" style="z-index: 10;">
+                    			<img src="images//uploaded/8/pedro3_17.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.al.gov.br" target="_blank">Alagoas</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_22.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://detran.es.gov.br" target="_blank">Espírito Santo</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_28.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.pa.gov.br/index_.php" target="_blank">Pará</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_34.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="http://www.detran.rn.gov.br" target="_blank">R.G. do Norte</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_40.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.se.gov.br/#gsc.tab=0" target="_blank">Sergipe</a></strong></p>
+                			</div>
+            			</div>
+            			<div class="col-lg-2 col-md-4">
+                			<div class="content-box mb-50">
+                    			<img src="images//uploaded/8/pedro3_18.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><strong class=""><a href="https://www.detran.ap.gov.br/detranap/" target="_blank">Amapá</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_23.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.go.gov.br/psw/#/pages/pagina-inicial" target="_blank">Goiás</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_29.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://detran.pb.gov.br" target="_blank">Paraíba</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_35.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.rs.gov.br/inicial" target="_blank">R.G. do Sul</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_41.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.to.gov.br/detran/" target="_blank">Tocantins</a></strong></p>
+                			</div>
+            			</div>
+            			<div class="col-lg-2 col-md-4">
+                			<div class="content-box mb-50">
+                    			<img src="images//uploaded/8/Bandeira_do_Amazonas.svg.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class=""><strong class=""><a href="https://www.detran.am.gov.br" target="_blank">Amazonas</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_24.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="http://www.detran.ma.gov.br" target="_blank">Maranhão</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_30.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.pr.gov.br" target="_blank">Paraná</a></strong></p>
+                			</div>
+                			<div class="content-box mb-75 mt--30" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_36.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.ro.gov.br" target="_blank">Rondônia</a></strong></p>
+                			</div>
+            			</div>
+            			<div class="col-lg-2 col-md-4">
+                			<div class="content-box mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_19.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.ba.gov.br" target="_blank">Bahia</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_25.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.mt.gov.br" target="_blank">Mato Grosso</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_31.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.pe.gov.br" target="_blank">Pernambuco</a></strong></p>
+                			</div>
+                			<div class="content-box mb-75 mt--30" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_37.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.rr.gov.br" target="_blank">Roraima</a></strong></p>
+                			</div>
+            			</div>
+            			<div class="col-lg-2 col-md-4">
+                			<div class="content-box mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_20.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.ce.gov.br" target="_blank">Ceará</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_26.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="https://www.detran.ms.gov.br" target="_blank">M.G. do Sul</a></strong></p>
+                			</div>
+                			<div class="content-box mt--30 mb-50" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_32.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="http://www.detran.pi.gov.br" target="_blank">Piauí</a></strong></p>
+                			</div>
+                			<div class="content-box mb-75 mt--30" style="z-index: 10;">
+                    			<img src="images/uploaded/8/pedro3_38.png" enable-background="new 0 0 64 64" height="48px" width="68" class="mb-20 icon svg-secondary" alt="icon" srcset="">
+                    			<p class="" style="overflow: visible;"><strong class=""><a href="http://www.detran.sc.gov.br" target="_blank">Santa Catarina</a></strong></p>
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+			</section><section id="action-text-btn" class="pb-50 dark text-center pt-30 pt-lg-50 pb-lg-50">
+    			<div class="container">
+        			<div class="row align-items-center justify-content-center">
+            			<div class="col-md-auto mw-100" style="z-index: 10;">
+                			<h2 class="" style="overflow: visible;"><strong class="">Entre em contato!</strong></h2>
+            			</div>
+            			<div class="col-md-auto mw-100" style="z-index: 10;">
+                			<a href="https://api.whatsapp.com/send?phone=5541988649375&amp;text=Olá!%20Estava%20no%20site%20e%20tenho%20uma%20dúvida." class="btn btn-lg btn-success mb-30 mt-30 fx-btn-glow smooth" style="overflow: visible;" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" class="icon icon-pos-left" srcset="" style="fill: rgb(255, 255, 255);"><path d="m9.9641038 10.7512723 2.0358962 1.5116935v-2.42202814c1.2374773-.84039149 2-2.0517116 2-3.34093766 0-2.38309619-2.6054201-4.5-6-4.5-3.39457992 0-6 2.11690381-6 4.5s2.60542008 4.5 6 4.5c.69270776 0 1.3525536-.0881514 1.9641038-.2487277zm4.0358962.0481923v5.2005354l-4.64026195-3.093508c-.44192631.0614803-.89622881.093508-1.35973805.093508-4.418278 0-8-2.9101491-8-6.5 0-3.58985087 3.581722-6.5 8-6.5s8 2.91014913 8 6.5c0 1.64847552-.7552732 3.15362319-2 4.2994646z" class=""></path></svg>Whatsapp</a>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="contact-map" class="light">
+    			<div class="container-fluid">
+        			<div class="row no-gutters">
+            			<div class="col-12">
+                			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14404.727859823777!2d-49.2379768!3d-25.4989772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfb9be8b51e5d%3A0x52fd253d22a8fcfb!2sDESPACHANTE%20IMEDIATO!5e0!3m2!1spt-BR!2sbr!4v1689299752201!5m2!1spt-BR!2sbr" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><footer id="footer-social-text" class="text-center light pt-20 pb-20">
+    			<div class="container">
+        			<div class="row">
+            			<div class="col-12" style="z-index: 10;">
+                			<div class="d-inline-block inline-group mb-20">
+                			</div>
+                			<p class="text-secondary mt--30 mb--30" style="overflow: visible;"><a href="https://1clickmkt.com.br" target="_blank" class="smooth">© Todos os direitos reservados para Despachante Imediato. Feito Por 1Click Marketing Digital LTDA.</a></p>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</footer>
+		</div>
+		<footer></footer>
+		<div class="modal-container"></div>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLuCywpBxOaM5GhDbDCAwE39Fn_hcUq0Q"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/jquery.smooth-scroll.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/despachante_imediato.js"></script>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+
+#nav-logo-menu-social .bg-wrap {
+	background: #1b1a36;
+}
+#nav-logo-menu-social--0 .bg-wrap {
+	background: #1b1a36;
+}#header-carousel-2 .bg {
+    background-image: url('../images//uploaded/8/pedro3_4.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:1;
+}#desc-halfbg-text-4 .bg-wrap {
+    background: #f4f5f6;
+}
+#sep-bottom-3 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
+}     #benefits-3col-6 .bg-wrap{
+    background: #ffffff;
+}#benefits-4col-7 .bg-wrap {
+    background-color: #F4F5F6;
+}
+
+
+#benefits-4col-7 .bg {
+    background-image: url('../images//uploaded/8/pedro3_7.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    opacity:0.075;
+}
+#desc-text .bg {
+    background-image: url('../images/uploaded/8/2023-05-08.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.35;
+}#action-text-btn-2 .bg {
+    background-image: url('../images//uploaded/8/pedro3_6.png');
+    background-repeat: Repeat-x;
+    background-position: center bottom;
+    background-size: contain;
+    opacity: 0.08;
+}
+
+#action-text-btn-2 .bg-wrap {}#sep-bottom-6 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
+}     
+
+#action-text-btn .bg-wrap {
+	background: #1b1a36;
+}
+#action-text-btn .bg {
+	opacity: 0.09;
+	background-image: url('../images/uploaded/8/pedro3_42.png');
+}#footer-social-text .bg-wrap {
+    background-color: #F4F5F6;
+}
